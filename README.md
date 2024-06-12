@@ -1,4 +1,7 @@
+### Here are the sample code to setup all the data DB and Express call syntax
 
+#### v-  1.3
+```
 const express = require("express")
 const fs = require("fs");
 const mongoose = require("mongoose");
@@ -91,4 +94,4 @@ app.patch("/api/user/:id",async (req, res) => {
 
 app.listen(PORT, () => console.log("server Started"))
 
-
+```
